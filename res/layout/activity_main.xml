@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgColorMainMenu" >
+
+    <Button
+        android:id="@+id/buttonActress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/namePriyankaChopra"
+        android:textColor="@color/mainMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="onClickSelectActress" />
+
+    <Button
+        android:id="@+id/buttonActress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonActress1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/nameKareenaKapoor"
+        android:textColor="@color/mainMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="onClickSelectActress" />
+
+    <Button
+        android:id="@+id/buttonActress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonActress2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/nameSonakshiSinha"
+        android:textColor="@color/mainMenuTextColor"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="onClickSelectActress" />
+    
+</RelativeLayout>

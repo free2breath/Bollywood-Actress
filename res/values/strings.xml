@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Bollywood Actress</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Bollywood Actress</string>
+    <string name="namePriyankaChopra">Priyanka Chopra</string>
+    <string name="nameKareenaKapoor">Kareena Kapoor</string>
+    <string name="nameSonakshiSinha">Sonakshi Sinha</string><color name="mainMenuTextColor">#FFFFFF</color><color name="bgColorMainMenu">#FF408C</color>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="actressImage">Actress Image</string>
+    <color name="navigationButtonTextColor">#70C656</color>
+
+</resources>
